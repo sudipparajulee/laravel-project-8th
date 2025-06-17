@@ -12,4 +12,19 @@ class PagesController extends Controller
         $age = 30;
         return view('welcome', compact('name', 'age'));
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function login()
+    {
+        return view('login');
+    }
 }
